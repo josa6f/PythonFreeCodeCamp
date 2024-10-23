@@ -44,3 +44,13 @@ print(numeroJ)
 
 numeroJ.sort()
 print(numeroJ)
+
+
+############################
+#Tuples - Estructura de datos inmutable que contiene una secuencia ordenada de elementos
+
+josa = (6, "Football", "Musica", "Computacion", "Tauromaquia")
+print(josa)
+print(josa[4])
+print(josa.index("Musica"))
+print(josa.count("Musica"))
