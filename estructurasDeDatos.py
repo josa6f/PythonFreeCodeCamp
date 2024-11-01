@@ -54,3 +54,29 @@ print(josa)
 print(josa[4])
 print(josa.index("Musica"))
 print(josa.count("Musica"))
+
+
+###########################
+#Diccionarios - relaciona dos valores en una misma estructura de datos (coleccion de clave valor), son unicas e inmutables
+players = {"majo": 13, "josafath": 6, "baby": 5, "mr": 4, "pako": 11, "paz": 72}
+print(players["pako"])
+print(players["majo"])
+print(players["josafath"])
+print(players["baby"])
+print(players["mr"])
+print(players["paz"])
+
+#con el metodo get
+print(players.get("josafath"))
+
+#agregar una clave valor
+players["nenuco"] = 2
+players["baby"] = 8
+
+print(players)
+
+#removerlos
+del players["majo"]
+
+print(players)
+
