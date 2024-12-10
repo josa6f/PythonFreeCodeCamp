@@ -32,3 +32,11 @@ for j in player.values():
 
 for n, j in player.items():
     print(n,j)
+
+
+##############################
+##Ciclo que continua mientras una condicion es verdadera y se detiene cuando es falsa
+numeroWhile = 0
+while numeroWhile < 10:
+    print(numeroWhile)
+    numeroWhile +=2
