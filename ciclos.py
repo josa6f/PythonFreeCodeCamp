@@ -13,3 +13,22 @@ for n in range(5, 100, 5): #start, stop, step
 
 
 #Ciclos iterables, que iteran sobre string, listas, tuplas, diccionarios, etc
+for name in "Josafath":
+    print(name)
+
+
+for num in [1,2,3,4,5]:
+    print(num)
+
+
+player = {"n":2, "m":4, "b":5, "j":6, "p":11, "a":72}
+
+for n in player:
+    print(n)
+
+for j in player.values():
+    print(j)
+
+
+for n, j in player.items():
+    print(n,j)
